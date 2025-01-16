@@ -1,0 +1,36 @@
+@import url("./basketOne.css");
+@import url("./basketTwo.css");
+@import url("./basketThree.css");
+@import url("./shelfOne.css");
+@import url("./shelfTwo.css");
+@import url("./shelfThree.css");
+@import url("./buttonPay.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 300px;
+    height: 600px;
+    position: relative;
+}
+
+.wrapper{
+    width: 212px;
+    height: 432px;
+    margin: 30px auto 0;
+}
+
+.basket {
+    position: relative;
+    top: -695px;
+    left: -30px;
+    z-index: 100;
+}
+
+
+

@@ -1,0 +1,22 @@
+.shelfTwo {
+    position: relative;
+    top: -215px;
+    left: -75px;
+    display: flex;
+    align-items: end;
+}
+  
+.beef {
+    position: absolute;
+      left: 80px;
+}
+  
+.chicken {
+    position: absolute;
+    left: 140px;
+}
+  
+.cheeps {
+    position: absolute;
+    left: 200px;
+}

@@ -1,0 +1,36 @@
+.btn-pay {
+    width: 174px;
+    height: 56px;
+    background-color: #FCE000;
+    border: #FCE000;
+    border-radius: 16px;
+    font-family: YS Text, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.5%;
+    position: absolute;
+    bottom: 50px;
+    left: 65px;
+    z-index: 200;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 1s ease;
+    visibility: hidden;
+}
+
+.pulsate {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+  
+.btn-pay-visible {
+    visibility: visible;
+}
+  
+.btn-pay:hover {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+  
+.btn-pay:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 3px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+}

@@ -1,0 +1,28 @@
+.shelfOne{
+    position: relative;
+    top: -310px;
+    left: -75px;
+    display: flex;
+    align-items: end;
+}
+
+.wine{
+    position: absolute;
+    left: 90px;
+}
+
+.milk{
+    position: absolute;
+    left: 140px;
+}
+
+.jam{
+    position: absolute;
+    left: 180px;
+}
+
+.cheese{
+    position: absolute;
+    left: 230px;
+}
+
